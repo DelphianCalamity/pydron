@@ -24,5 +24,6 @@ setup(
                         'sortedcontainers>=0.9.5', 
                         'anycall>=0.2.3', 
                         'remoot>=2.1.2',
-                        'mock>=1.0.1'],
+                        'mock>=1.0.1',
+                        'idna==2.1']
 )
