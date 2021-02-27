@@ -25,5 +25,8 @@ setup(
                         'anycall>=0.2.3', 
                         'remoot>=2.1.2',
                         'mock>=1.0.1',
-                        'idna==2.1']
+                        'idna==2.1',
+                        'bidict==0.10.0',
+                        'apache-libcloud==0.20.1',
+                        'Twisted==15.5.0']
 )
