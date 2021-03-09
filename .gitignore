@@ -1,3 +1,13 @@
+# IDEs
+.idea/
+
+# MacOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+
 doc/html
 
 *.py[cod]
