@@ -18,17 +18,16 @@ setup(
     author_email='stefan.mueller@fhnw.ch',
     url='https://github.com/smurn/pydron',
     packages = find_packages(),
-    install_requires = ['astor==0.4', 
-                        'enum34==1.0.4', 
-                        'frozendict==0.4', 
-                        'sortedcontainers==0.9.5',
-                        'Twisted==15.0.0',  # 1/30/15
-                        'anycall==0.2.3', 
-                        'remoot==2.1.3',
-                        'mock==1.0.1',
+    install_requires = ['astor>=0.4', 
+                        'enum34>=1.0.4', 
+                        'frozendict>=0.4', 
+                        'sortedcontainers>=0.9.5', 
+                        'anycall>=0.2.3', 
+                        'remoot>=2.1.2',
+                        'mock>=1.0.1',
                         'idna==1.1',  # 1/27/15
                         'bidict==0.3.1',  # 10/11/14
-                        'apache-libcloud==0.17.0'  # 2/18/15
-                        #'pathlib==1.0'
+                        'apache-libcloud==0.17.0',  # 2/18/15
+                        'Twisted==15.0.0',  # 1/30/15
                         ]
 )
